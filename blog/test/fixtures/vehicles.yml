@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  v_make: MyString
+  v_model: MyString
+  mileage: MyString
+  price: MyString
+  year: MyString
+  dealership: MyString
+  comments: MyText
+  rating: MyString
+  zipcode: MyString
+  image_url: MyString
+  video_url: MyString
+
+two:
+  v_make: MyString
+  v_model: MyString
+  mileage: MyString
+  price: MyString
+  year: MyString
+  dealership: MyString
+  comments: MyText
+  rating: MyString
+  zipcode: MyString
+  image_url: MyString
+  video_url: MyString

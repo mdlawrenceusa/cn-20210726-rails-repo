@@ -1,0 +1,62 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>V make:</strong>
+  <%= @vehicle.v_make %>
+</p>
+
+<p>
+  <strong>V model:</strong>
+  <%= @vehicle.v_model %>
+</p>
+
+<p>
+  <strong>Mileage:</strong>
+  <%= @vehicle.mileage %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @vehicle.price %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @vehicle.year %>
+</p>
+
+<p>
+  <strong>Dealership:</strong>
+  <%= @vehicle.dealership %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @vehicle.comments %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @vehicle.rating %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @vehicle.zipcode %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @vehicle.image_url %>
+</p>
+
+<p>
+  <strong>Video url:</strong>
+  <%= @vehicle.video_url %>
+</p>
+
+<iframe width="560" height="315" src="<%= @vehicle.video_url %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>
